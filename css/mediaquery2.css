@@ -17,3 +17,27 @@
 .welcome-text{
     font-size: 1.5rem;
 }
+.cards-container{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.skills-cards{
+    height: 10rem;
+    width: 20rem;
+}
+.skills-cards i{
+    font-size: 3rem;
+}
+.lni{
+    margin-top: 0.5rem;
+}
+.card-head{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+}
+.card-info{
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}

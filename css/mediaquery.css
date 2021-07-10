@@ -4,3 +4,19 @@
 .info{
     font-size: 1.2rem;
 }
+.about-me-text{
+    font-size: 1rem;
+}
+.about-me-holder{
+    justify-content: center;
+}
+.cards-container{
+    flex-direction: column;
+    flex-wrap: nowrap;
+    height: auto;
+    overflow: hidden;
+    align-items: center;
+}
+.skills-container{
+    height: auto;
+}
