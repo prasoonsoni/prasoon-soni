@@ -1,0 +1,19 @@
+.navbar{
+    display: none;
+}
+.about-header{
+    padding-top: 25px;
+}
+.prasoon-title{
+    font-size: 3rem;
+    margin-top: 30vh;
+}
+.info{
+    font-size: 1.2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+.welcome-text{
+    font-size: 1.5rem;
+}

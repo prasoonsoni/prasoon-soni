@@ -6,10 +6,12 @@
     /* background-color: #171717; */
     scroll-behavior: smooth;
 }
+
 .navbar{
     background-color: #171717;
     position: fixed;
     width: 100%;
+    z-index: 9;
 }
 .nav-list{
     display: flex;
@@ -87,6 +89,7 @@
     height: auto;
     width: 100%;
 }
+
 .about-container{
     height: 100vh;
     width: 100%;
@@ -97,7 +100,7 @@
     font-family: 'Pacifico', sans-serif;
     font-size: 3rem;
     color:#171717;
-    padding-top: 60px;
+    padding-top: 3rem;
 }
 .welcome-text{
     color:#171717;
@@ -133,7 +136,8 @@
 .about-me-holder{
     display:flex;
     flex-direction: column;
-    padding-top: 24px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 #skills{
     height: auto;
@@ -142,13 +146,13 @@
 .skills-container{
     height: 100vh;
     width: 100%;
-    background-color: #171717;
+    background-color: white;
 }
 .skills-header{
     text-align: center;
     font-family: 'Pacifico', sans-serif;
     font-size: 3rem;
-    color:white;
+    color:#171717;
     padding-top: 60px;
 }
 .cards-container{
@@ -162,12 +166,17 @@
     margin-left: 5px;
     margin-top: 20px;
     margin-bottom: 20px;
+    background-color:whitesmoke;
+    border-radius: 15px;
+    box-shadow: 0 0 5px #000000
 }
 .skills-cards i{
-    font-size: 60px;
-    color: white;
+    font-size: 4rem;
+    color: #171717;
     line-height: 56px;
+    text-align: center;
 }
 .lni{
-    
+    width: 100%;
+    margin-top: 15px;
 }
