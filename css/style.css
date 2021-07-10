@@ -169,6 +169,8 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   height: auto;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 .skills-cards {
   height: 15rem;
