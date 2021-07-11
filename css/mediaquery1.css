@@ -6,7 +6,9 @@
 .about-container{
     height: auto;
 }
-.about-me-text{
+.about-me-text1, .about-me-text2,.about-me-text3,
+.about-me-text4,.about-me-text5,.about-me-text6,
+.about-me-text7,.about-me-text8{
     font-size: 1rem;
     margin-right: 25px;
 }

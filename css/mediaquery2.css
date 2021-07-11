@@ -24,6 +24,8 @@
 .skills-cards{
     height: 10rem;
     width: 20rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .skills-cards i{
     font-size: 3rem;

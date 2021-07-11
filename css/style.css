@@ -8,7 +8,24 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
-
+@keyframes text-in {
+  from{
+    transform:translateX(500px);
+    opacity: 0;
+  }
+  to{
+    transform:translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes fade-entry {
+  from{
+    opacity: 0;
+  }
+  to{
+    opacity: 1;
+  }
+}
 .navbar {
   background-color: #171717;
   position: fixed;
@@ -78,6 +95,7 @@
   font-size: 10rem;
   position: relative;
   margin-top: 170px;
+  animation: fade-entry 2s ease-in;
 }
 .info {
   color: whitesmoke;
@@ -85,6 +103,7 @@
   font-size: 2rem;
   position: relative;
   margin-top: 5px;
+  animation: fade-entry 3.5s ease-in;
 }
 #about {
   height: auto;
@@ -110,12 +129,39 @@
   font-size: 3rem;
   margin-top: 10px;
 }
-.about-me-text {
+.about-me-text1, .about-me-text2,.about-me-text3,
+.about-me-text4,.about-me-text5,.about-me-text6,
+.about-me-text7,.about-me-text8{
   font-size: 1.2rem;
   font-family: "Poppins", sans-serif;
   font-weight: 400;
   margin-left: 25px;
   margin-top: 10px;
+  
+}
+.about-me-text1{
+  animation: text-in 1s ease-in;
+}
+.about-me-text2{
+  animation: text-in 1.4s ease-in;
+}
+.about-me-text3{
+  animation: text-in 1.8s ease-in;
+}
+.about-me-text4{
+  animation: text-in 2.2s ease-in;
+}
+.about-me-text5{
+  animation: text-in 2.6s ease-in;
+}
+.about-me-text6{
+  animation: text-in 3s ease-in;
+}
+.about-me-text7{
+  animation: text-in 3.4s ease-in;
+}
+.about-me-text8{
+  animation: text-in 3.8s ease-in;
 }
 .content-container {
   display: flex;
@@ -129,6 +175,7 @@
   margin-bottom: 1rem;
   margin-right: 1rem;
   position: relative;
+  animation: image-anim,1s;
 }
 .link {
   color: royalblue;
@@ -234,7 +281,7 @@
 
 .wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   margin-top: 2rem;
 }
 
@@ -243,7 +290,6 @@
   background-color: #ffffff;
   border-radius: 50%;
   padding: 15px;
-  margin: 10px;
   width: 50px;
   height: 50px;
   font-size: 18px;
